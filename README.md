@@ -1,161 +1,148 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/saiteja-madha"><img src="./docs/.gitbook/assets/logo_transparent.png" height="200" alt="Discord.js v14 Bot"></a>
-  <br>
-  Discord.js v14 Bot
-  <br>
-</h1>
+# 💬 All In One Discord Bot
 
-<p align="center">Admin, AutoMod, Anime, Economy, Fun, Giveaway, Image, Invite, Information, Moderation, Music, Owner, Social, Statistics, Suggestion, Ticket, Utility and More...</p>
+A powerful all-in-one Discord bot built with **Discord.js v14** — featuring moderation, automod, music, economy, giveaways, tickets, dashboard and much more!
 
-<br>
+---
 
-<p align="center">
-  <a href="#-resource-links">Resource Links</a>
-  •
-  <a href="#-prerequisites">Prerequisites</a>
-  •
-  <a href="#-getting-started">Getting Started</a>
-  •
-  <a href="#-features">Features</a>
-  •
-  <a href="#-contributing">Contributing</a>
-</p>
+## 📌 Table of Contents
 
-<br>
+- [🔗 Resource Links](#-resource-links)
+- [📦 Prerequisites](#-prerequisites)
+- [🚀 Getting Started](#-getting-started)
+- [✨ Features](#-features)
+- [🤝 Contributing](#-contributing)
+- [📝 License](#-license)
+
+---
 
 ## 🔗 Resource Links
 
-- 🌐 Bot Website: [Visit Here](https://djs-bot.hostz.me)
-- 🤖 Demo Bot: [Invite Here](https://discord.com/oauth2/authorize?client_id=1013236808353599488&permissions=397602323830&scope=bot%20applications.commands)
-- 🤝 Support Server: [Join Here](https://discord.gg/2gPy75zgbW)
-- 🐳 Docker Image: [Hub](https://hub.docker.com/r/saitejamadha/discord-js-bot)
-- 💻 Replit: [Fork Here](https://replit.com/@saiteja-madha/discord-js-bot)
+- 🤝 Support Server: [Join Here](https://discord.gg/dedAEN2r4N)
+
+---
 
 ## 📦 Prerequisites
 
-- [Node.js](https://nodejs.org/en/) v16.11.0 or higher
-- [Git](https://git-scm.com/downloads)
-- [MongoDB](https://www.mongodb.com)
+Before you begin, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/en/) v16.11.0 or higher  
+- [Git](https://git-scm.com/downloads)  
+- [MongoDB](https://www.mongodb.com)  
+
+---
 
 ## 🚀 Getting Started
 
-- Open the terminal and run the following commands
+1. Clone the repository:
 
-```
-git clone https://github.com/saiteja-madha/discord-js-bot.git
-cd discord-js-bot
+```bash
+git clone https://github.com/LegitKillerOP/AIO-DC-BOT.git
+cd AIO-DC-BOT
 npm install
 ```
+2. Rename .env.example to .env and fill in the required environment variables.
 
-- Wait for all the dependencies to be installed
-- Rename `.env.example` to `.env` and fill the values
-- Optionally edit `config.js`
-- Type `npm run start` to start the bot
+3. Start the bot:
 
-If you need any additional help, make sure to read our guides [here](docs/additional/installation.md)
+```bash
+node .
+```
+Need help? Check out the installation guide
 
-<br>
-
-<h1 align="center"> ✨ Features ✨ </h1>
-
+## ✨ Features
 ### 📡 **Advanced Dashboard**
+Manage servers with a full-featured dashboard
 
-- Manage your servers and make your server-specific settings!
-- Make custom adjustments easy!
+Server-specific settings and customization
 
-### 🛑 **Powerful Moderation:**
+### 🛑 **Powerful Moderation**
+Core commands: ban, unban, timeout, warn, setnick, move, etc.
 
-- **Moderation Commands.** <br /> _Commands:_ `ban`, `unban`, `timeout`, `voice moderation`, `deafen`, `move`, `warn`, `setnick`, ...
-- **Multi-Function Purge Commands.** <br /> _Commands:_ `purge`, `purge attach`, `purge bots`, `purge links`, `purge token`, `purge user`, ...
+Multi-type purge: purge bots, purge links, purge user, etc.
 
-### 🤖 **Auto Moderation:**
+### 🤖 **Auto Moderation**
+Anti-spam, anti-ghostping, anti-massmention
 
-- **Anti system** <br /> _Commands:_ `anti ghostping`, `anti spam`, `anti massmention`, ...
-- **Auto Delete system** <br /> _Commands:_ `autodelete attachments`, `autodelete invites`, `autodelete links`, `autodelete maxlines`, ...
-- **AutoMod system** <br /> _Commands:_ `automod status`, `automod strikes`, `automod action`, `automod debug`, `automod whitelist`, ...
+Auto-delete messages with links, attachments, etc.
 
-### ⚙️ **Admin Configuration:**
+Automod system: strikes, actions, debugging, whitelist
 
-- **Let a bot be the server's assistant!** <br /> _Commands:_ `autorole`, `farewell`, `welcome`, `counters`, `flag translation`, `reaction roles`, ...
-- **Make custom settings for your own server.** <br /> _Commands:_ `setprefix`, `maxwarns`, `modlog`...
+### ⚙️ **Admin Configuration**
+Autoroles, welcome/farewell messages, counters
 
-### 💁 **Information Gathering:**
+Prefix, modlogs, flag translation, reaction roles
 
-- **User Context Interactions**
-- **Advanced Information** Get deep information about a user, channel, role, etc.
+### 💁 **Information Gathering**
+Get advanced info about users, roles, channels
 
-### 🎵 **Music:**
+Context menu commands
 
-- **LossLess Music!** Enjoy high quality lossless music
-- **Multi-Platform** Play music from YouTube, SoundCloud, Spotify, and more
-- **Filters** Apply filters to your music and spice it up
+### 🎵 **Music**
+High-quality music from YouTube, Spotify, SoundCloud
 
-### 🎉 **Giveaways:**
+Audio filters and effects
 
-- **Easy to use** Create giveaways with ease
-- **Role specific** giveaways
-- **Customizable** Customize the giveaway to your liking
-- **Limitless** Create unlimited giveaways
+### 🎉 **Giveaways**
+Create unlimited giveaways with role-specific access
 
-### 🫂 **Social Content:**
+Easy to manage and fully customizable
 
-- **You Have A CV In Each Server-Specific Bot!** <br /> _Commands:_ `rep`, `rep view`...
-- **Do You Love Someone?** <br /> _Commands:_ `rep give`...
+### 🫂 **Social Content**
+Reputation system with rep commands
 
-### 🎟 **Ticket System:**
+Relationship-style interactions
 
-- **Make Supporting Members A Breeze With Tickets!** <br/> Highly customizable ticket system with staff roles
-- **Multiple Categories** <br/> Don't Want The Tickets To Be Everywhere? Categorize them using select menus
+### 🎟 **Ticket System**
+Fully customizable support tickets
 
-### 📉 **Stats Tracking:**
+Multiple categories and staff role access
 
-- **Levelling** Track your server's activity with a level system
-- **Leaderboards** See who is the most active user in your server
-- **Customizable System** Configure the levelup message, rank cards to your liking
+### 📉 **Stats Tracking**
+XP and level system
 
-### 🙋‍♂️ **Suggestions:**
+Leaderboards and customizable level cards
 
-- **Get Suggestions From Server Members To Help Your Server Become The Best!** <br /> _Commands:_ `suggest`, `suggestion`...
-- **Accept Or Decline The Suggestions And Customize Them To The Max!** <br /> _Commands:_ `suggestion status`, `suggestion channel`, `suggestion appch`, `suggestion rejch`, `suggestion approve`, `suggestion staffadd`, `suggestion staffremove`...
+### 🙋‍♂️ **Suggestions**
+Suggestion system with approval and rejection channels
 
-### ⚒️ **Utility Commands:**
+Staff roles, logs, and full customization
 
-- **Need Some Help With Something? Use The Utility Commands To Find Out The Answer To It** <br /> _Commands:_ `bigemoji`, `covid`, `pokedex`, `urban`, `weather`, ...
-- **Need Help With Some More Stuff?** <br /> _Commands:_ `help`, `proxies`, `translate`, `paste`, ...
+### ⚒️ **Utility Commands**
+Useful tools: weather, pokedex, translate, covid, urban, bigemoji, etc.
 
-### ⭐ **Anime Content:**
+Pastebin, help, proxies, and more
 
-- **Love Anime? Express Your Love To Someone Using The React Commands** <br /> _Commands:_ `react`, `hug`, `kiss`, `cuddle`, `pat`, `poke`, `slap`, `smug`, ...
+### ⭐ **Anime Content**
+Anime-style reactions: hug, kiss, pat, slap, etc.
 
-### 🪙 **Economy System:**
+### 🪙 **Economy System**
+Bank, daily, beg, gamble, balance, deposit, withdraw, transfer
 
-- **Want To Become Richest? Use The Economy Commands!** <br /> _Commands:_ `bank`, `daily`, `beg`, `gamble`...
-- **Give People Money, Check Your Balance, Or Just Flex!** <br /> _Commands:_ `bank balance`, `bank deposit`, `bank withdraw`, `bank transfer`, ...
+Compete to be the richest in the server
 
-### 😁 **Fun Commands:**
+### 😁 **Fun Commands**
+Memes, facts, animals, jokes
 
-- **Have Some Fun In Your Server!** <br /> _Commands:_ `animal`, `facts`, `meme`, `flip`, ...
-- **Play Games And Enjoy Yourself** <br /> _Commands:_ `snake`, `together`, `flip coin`, `flip text`, ...
+Games: snake, flip coin, together, etc.
 
-### 📨 **Invite Tracking:**
+### 📨 **Invite Tracking**
+Track invites, reset, import, assign invite ranks
 
-- **Track who has been inviting people to your server!**
-- **Invite Ranks!** Inviter can get awesome rewards and be recognised
-- **Configure these settings and customize them to your liking!** <br /> _Commands:_ `resetinvites`, `addinvites`, `invitesimport`, `inviterank`...
+Reward top inviters
 
-### 📷 **Image Manipulation:**
+### 📷 **Image Manipulatio**n
+Modify avatars: blur, invert, pixelate, sepia, etc.
 
-- **Customize other peoples avatars** <br /> _Commands:_ `blur`, `greyscale`, `invert`, `pixelate`, `blur`, `sepia`, `sharpen`, `ad`, `affect`, `beautiful`, `color`...
-- **Make some images by yourself or make some art** <br /> _Commands:_ `bobross`, `confusedstonk`, `delete`, `facepalm`, ` hitler`, `jail`, `jokeoverhead`, `karaba`, `mms`, `notstonk`, `poutine`, `rainbow`, `rip`, ` shit`, `stonk`, `tatoo`, `thomas`, `trash`, `wanted`, `wasted`, ...
+Meme-style generators: bobross, facepalm, trash, wanted, etc.
 
-<br>
+## 🤝 Contributing
+We welcome contributions!
 
-<h1 align="center"> 🤝 Contributing 🤝 </h1>
+Fork this repository
 
-- Special thanks to [@Androzz](https://github.com/Androz2091/AtlantaBot) for the [dashboard](https://github.com/Androz2091/AtlantaBot) and his other cool discord bot projects
-- Feel free to [Fork](https://github.com/saiteja-madha/discord-js-bot/fork) this repository, create a feature branch and submit a pull request
+Create a feature branch
+
+Submit a pull request
 
 ## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
